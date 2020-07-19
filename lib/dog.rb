@@ -2,6 +2,7 @@
 require'pry'
 class Dog
 
+@@all = []
   def new (name)
     
     
