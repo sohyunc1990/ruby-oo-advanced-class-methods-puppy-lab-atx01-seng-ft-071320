@@ -14,7 +14,7 @@ class Dog
   end
   
    def self.print_all
-     @@all.each {|key| key == @name}
+     @@all.each {|key| @name}
    end
     
   def self.clear_all
