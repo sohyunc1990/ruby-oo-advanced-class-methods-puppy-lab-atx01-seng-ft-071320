@@ -14,7 +14,8 @@ class Dog
   end
   
    def self.print_all
-     @@all.each {|key, value| p value}
+     @@all.each do |key, value|
+       if value == @
    end
     
   def self.clear_all
